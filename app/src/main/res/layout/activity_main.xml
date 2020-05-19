@@ -12,7 +12,7 @@
         android:layout_height="50dp">
 
         <TextView
-            android:id="@+id/ib_menu"
+            android:id="@+id/ib_refresh"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -25,35 +25,44 @@
     </android.support.constraint.ConstraintLayout>
 
     <kr.hj.simple_scheduler.view.FlowLinearLayout
+        android:id="@+id/fl_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="50dp"
         app:layout_constraintTop_toBottomOf="@id/cl_top_layout"
         app:layout_constraintStart_toStartOf="parent">
 
-        <ImageView
-            android:id="@+id/iv_move_item"
+        <Button
+            android:id="@+id/bg_move_item"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_foreground" />
+            android:drawableTop="@drawable/ic_launcher_foreground"
+            android:background="@color/transparent"
+            android:text="1"/>
 
-        <ImageView
-            android:id="@+id/iv_move_item1"
+        <Button
+            android:id="@+id/bg_move_item1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_foreground" />
+            android:drawableTop="@drawable/ic_launcher_foreground"
+            android:background="@color/transparent"
+            android:text="2" />
 
-        <ImageView
-            android:id="@+id/iv_move_item2"
+        <Button
+            android:id="@+id/bg_move_item2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_foreground" />
+            android:drawableTop="@drawable/ic_launcher_foreground"
+            android:background="@color/transparent"
+            android:text="3" />
 
-        <ImageView
-            android:id="@+id/iv_move_item3"
+        <Button
+            android:id="@+id/bg_move_item3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_foreground" />
+            android:drawableTop="@drawable/ic_launcher_foreground"
+            android:background="@color/transparent"
+            android:text="4" />
 
     </kr.hj.simple_scheduler.view.FlowLinearLayout>
 

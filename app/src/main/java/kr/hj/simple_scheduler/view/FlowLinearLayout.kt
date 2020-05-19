@@ -66,13 +66,9 @@ class FlowLinearLayout @JvmOverloads constructor(
         setMeasuredDimension(width, height)
     }
 
-    protected override fun generateDefaultLayoutParams(): ViewGroup.LayoutParams {
-        return LayoutParams(1, 1)
-    }
+    protected override fun generateDefaultLayoutParams() = LayoutParams(1, 1)
 
-    protected override fun generateLayoutParams(p: ViewGroup.LayoutParams?): ViewGroup.LayoutParams {
-        return LayoutParams(1, 1)
-    }
+    protected override fun generateLayoutParams(p: ViewGroup.LayoutParams?) = LayoutParams(1, 1)
 
     protected override fun checkLayoutParams(p: ViewGroup.LayoutParams?): Boolean {
         p?.let {

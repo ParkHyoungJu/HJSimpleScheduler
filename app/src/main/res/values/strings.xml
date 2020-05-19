@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HJ Simple Scheulder</string>
+    <string name="app_name">HJ Simple Scheduler</string>
 
     <string name="hint_exit">\'Previous\' button double tap to exit</string>
     <string name="icon_refresh">refresh</string>
